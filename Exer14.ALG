@@ -1,5 +1,8 @@
+#Portugol
+
+
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi
 
 Var
@@ -10,18 +13,18 @@ Var
 
 Inicio
 
-   Escreva ("Quantos dia você esteve com o carro: ")
+   Escreva ("Quantos dia vocÃª esteve com o carro: ")
            Leia (D)
-   Escreva ("Quantos km você percorreu: ")
+   Escreva ("Quantos km vocÃª percorreu: ")
            Leia (K)
    VD <- D*90,00
-   EscrevaL ("O valor total da diaria é de R$", VD)
+   EscrevaL ("O valor total da diaria Ã© de R$", VD)
    
    VKM <- K*0,20
-   EscrevaL ("O valor total por km rodado é de R$", VKM)
+   EscrevaL ("O valor total por km rodado Ã© de R$", VKM)
    
    Vtotal<- VD+VKM
-   Escreva ("Seu valor total é de R$", VKM)
+   Escreva ("Seu valor total Ã© de R$", VKM)
 
 
 Fimalgoritmo

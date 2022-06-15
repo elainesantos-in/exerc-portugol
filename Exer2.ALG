@@ -8,5 +8,5 @@ Var
 Inicio
    Escreva ("Qual o seu nome? ")
    Leia (nome)
-   Escreva ("Ol� ",nome," � um prazer te conhecer!")
+   Escreva ("Olá ",nome," � um prazer te conhecer!")
 Fimalgoritmo

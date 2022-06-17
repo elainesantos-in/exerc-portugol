@@ -8,7 +8,7 @@ Algoritmo "semnome"
 
 Var
 
-
+    valorCasa,valorSalario,Prest,Lim,TempoMes,Temp: Real
 
 Inicio
 
@@ -17,13 +17,15 @@ Inicio
    EscrevaL("Qual o seu salário: ")
    Leia (ValorSalario)
    EscrevaL("Em quantos anos voçê vai pagar: ")
-   Leia (Tempo)
-   TempoMes <- Tempo*12
-   Prestacao <- ValorCasa/T
-
-   Se (Prestação) entao
-      EscrevaL ("O novo salario será R$",NovoSal:6:2)
+   Leia (Temp)
+   TempoMes <- Temp*12
+   Prest <- ValorCasa/TempoMes
+   Lim <- (ValorSalario*30)/100
+   Se Lim<=Prest entao
+      EscrevaL ("Emprestimo Aprovado")
    Senao
+
+      EscrevaL ("Emprestimo Negado seu limite é", Lim" por mês")
 
    Fimse
 

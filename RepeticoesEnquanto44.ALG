@@ -17,19 +17,17 @@ Var
   
 Inicio
 
-      EscrevaL ("Qual o primeiro numero?" )
+      Escreva ("Qual o primeiro numero?" )
       Leia (NumOne)
-      EscrevaL ("Qual o ultimo numero?" )
+      Escreva ("Qual o ultimo numero?" )
       Leia (NumTwo)
-      EscrevaL ("Qual o numero do salto?" )
+      Escreva ("Qual o numero do salto?" )
       Leia (Salto)
       
       contador <- NumOne
       Enquanto (contador <= NumTwo) faca
-               EscrevaL (contador)
-               contador <- contador + Salto
+                contador <- NumOne + Salto
       Fimenquanto
-               EscrevaL ("Acabou!")
       
 
 

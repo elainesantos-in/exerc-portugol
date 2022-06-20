@@ -1,8 +1,9 @@
 
+
 Algoritmo "semnome"
 
-//Escreva um programa que mostre na tela a seguinte contagem:
-//6 7 8 9 10 11 Acabou!
+//Crie um aplicativo que mostre na tela a seguinte contagem:
+//0 3 6 9 12 15 18 Acabou!
 
 Var
 
